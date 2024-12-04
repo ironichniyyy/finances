@@ -1,0 +1,1 @@
+psql --dbname=finances_db --username=admin -h localhost
