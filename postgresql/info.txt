@@ -1,1 +1,3 @@
 psql --dbname=finances_db --username=admin -h localhost
+
+GOOSE_DRIVER=postgres GOOSE_DBSTRING="host=localhost user=admin password=admin dbname=finances_db" goose up
