@@ -4,7 +4,7 @@ services:
     image: postgres:13.3
     environment:
       POSTGRES_DB: "finances_db"
-      POSTGRES_USER: "admin"
+      POSTGRES_USER: "finances_db_user"
       POSTGRES_PASSWORD: "admin"
     ports:
       - "5432:5432"

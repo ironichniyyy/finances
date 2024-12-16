@@ -1,4 +1,4 @@
-module db
+module github.com/ironichniyyy/finances
 
 go 1.22.3
 
